@@ -36,27 +36,6 @@ Make sure you have `Jupyter Notebook` installed. If not, you can install it by:
 pip install notebook
 ```
 
-## Usage
-
-1. **Download or Clone this Repository**:  
-   Download the repository or clone it using:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-
-2. **Run the Jupyter Notebook**:  
-   Navigate to the directory containing the notebook file and run the Jupyter Notebook.
-   ```bash
-   jupyter notebook
-   ```
-   Open the `gaussian_curvature.ipynb` notebook and execute the cells.
-
-3. **Input Mesh**:  
-   The notebook loads a 3D triangular mesh from the file `igea.ply`. Make sure to place your mesh file in the correct path or modify the input file path in the notebook.
-
-4. **Gaussian Curvature Calculation**:  
-   The notebook computes Gaussian curvature for each vertex of the mesh. You can modify the script to use different meshes by changing the input file path.
-
 ## Gaussian Curvature Calculation Algorithm
 
 The algorithm iterates through each triangle in the mesh and computes the internal angles at each vertex using the cosine rule. Then, it calculates the corresponding Gaussian curvature values for each vertex based on the angular deficits and the areas of the surrounding triangles.
