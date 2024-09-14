@@ -40,9 +40,8 @@ The algorithm iterates through each triangle in the mesh and computes the intern
 
 4. **Curvature Calculation**:  
     The Gaussian curvature at each vertex is calculated as:
-    \[
-    K = \frac{2\pi - \text{(sum of angles at vertex)}}{\text{(area of surrounding triangles)}}
-    \]
+    K = (2π - sum of angles at vertex) / (area of surrounding triangles)
+
 
 
 ## File Structure
