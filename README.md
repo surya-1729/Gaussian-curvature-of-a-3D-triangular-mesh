@@ -23,19 +23,6 @@ To run the notebook, you need to install the following dependencies:
   - `meshplot` (for 3D visualization)
   - `numpy` (for mathematical operations)
 
-Install the dependencies using `pip`:
-
-```bash
-pip install numpy meshplot pyglet
-pip install git+https://github.com/libigl/libigl-python-bindings@master
-```
-
-Make sure you have `Jupyter Notebook` installed. If not, you can install it by:
-
-```bash
-pip install notebook
-```
-
 ## Gaussian Curvature Calculation Algorithm
 
 The algorithm iterates through each triangle in the mesh and computes the internal angles at each vertex using the cosine rule. Then, it calculates the corresponding Gaussian curvature values for each vertex based on the angular deficits and the areas of the surrounding triangles.
