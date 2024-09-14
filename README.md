@@ -96,20 +96,3 @@ colors = mp.utils.get_colors(g, colormap='viridis', normalize=False, vmin=-200, 
 mp.plot(vert, tri, colors)
 ```
 
-## Future Work
-
-- Add support for additional mesh formats.
-- Implement other curvature types (e.g., mean curvature).
-- Improve computational efficiency for large meshes.
-
-## Contributing
-
-Feel free to submit pull requests or open issues for improvements, bug fixes, or suggestions.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-This README file should give users a clear understanding of how to use the notebook, what it does, and how to set it up. You can further refine it based on additional project details or specific instructions for running the notebook.
